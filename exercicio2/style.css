@@ -1,22 +1,36 @@
-.longe-bordas{
-    background-color: #FFA6A9;
-  }
-  
-  .afastado{
-    background-color: #77C0ED;
-  }
-  .alto{
-    background-color: #C3E887;
-  }
-  
-  .largo{
+.longe-bordas {
+  background-color: #FFA6A9;
+  padding: 20px;
+  /*Quero ficar mais longe das bordas */
+}
+
+.afastado {
+  background-color: #77C0ED;
+  margin: 20px;
+  /*Quero ficar mais longe dos outros elementos*/
+  /*shortcur => margin: top, right, bottom, left*/
+}
+
+.alto {
+  background-color: #C3E887;
+  height: 300px;
+  /*Quero ser mais alto, com uns 300px*/
+}
+
+.largo {
   background-color: #FFE396;
-  }
-  
-  .bordado{
-    background-color: #AF9BCC;
-  }
-  
-  .sumido{
-   
-  }
+  width: 200px;
+  /*Quero ter 500px de largura*/
+}
+
+.bordado {
+  background-color: #AF9BCC;
+  border: 5px solid black
+    /*Quero ter uma borda legal, preta com um pixel de largura*/
+    /*shortchut: border-width, border-size e border-style*/
+}
+
+.sumido {
+  display: none
+  /*Quero ficar invisível!*/
+}

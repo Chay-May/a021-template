@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:orangered;
+    color: antiquewhite;
+    border-bottom: 5px solid black
+}
+
+main{
+    margin: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 80vh;
+    width: 90vw;
+    background-color: aquamarine;
+}
+
+article h2{
+    font-family: arial;
+}
+
+article p{
+    font-family: helvetica;
+}
+
+.destaque{
+color: orangered
+}
+
+
+article{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(219, 188, 248);
+}
+
+footer {
+    height: 40px;
+    padding: 10px;
+    background-color: black;
+    color:bisque
+}
