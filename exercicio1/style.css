@@ -1,0 +1,21 @@
+header {
+    background-color: rgb(25, 25, 247);
+    color: bisque;
+}
+
+h2{
+background-color: yellowgreen;
+}
+
+section{
+    background-color: rgb(27, 105, 79);
+}
+
+section .titulo-secao{
+    color: whitesmoke;
+}
+
+footer{
+    background-color: brown;
+    color: blanchedalmond;
+}
